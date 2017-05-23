@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://3dnews.ru/" />
+<title>Search(footer)</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Search(footer)</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Поиск</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=td.section-title</td>
+	<td>Поиск</td>
+</tr>
+<tr>
+	<td>verifyTitle</td>
+	<td>Поиск</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.content-block.breadcrumbs &gt; div.content-block-header</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=td.section-title</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=td.section-title</td>
+	<td>Поиск</td>
+</tr>
+<tr>
+	<td>waitForText</td>
+	<td>css=#section-content &gt; div.content-block-header</td>
+	<td>Введите поисковый запрос</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=#section-content &gt; div.content-block-header</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=span.left.strong</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=span.left.strong</td>
+	<td>Введите поисковый запрос</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=search-line</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=search-text-full</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[@id='search-line']/i[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='search-line']/i[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//div[@id='search-line']/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//div[@id='search-line']/i</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.search-settings &gt; div.content-block-header</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//form[@id='search-form-full']/div/div[2]/div/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='search-form-full']/div/div[2]/div/span</td>
+	<td>⇣&nbsp;&nbsp;Настройки</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.content-block-data.article-contents</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=a.chzn-single &gt; div &gt; b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.chzn-search &gt; input[type=&quot;text&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.chzn-search &gt; input[type=&quot;text&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=a.chzn-single &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=a.chzn-single &gt; div &gt; b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//form[@id='search-form-full']/div/div[2]/div[2]/div/div[2]/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='search-form-full']/div/div[2]/div[2]/div/div[2]/span</td>
+	<td>Сортировка</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=#dorder_chzn &gt; a.chzn-single &gt; div &gt; b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=#dorder_chzn &gt; div.chzn-drop &gt; div.chzn-search &gt; input[type=&quot;text&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//form[@id='search-form-full']/div/div[2]/div[2]/div/div[3]/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='search-form-full']/div/div[2]/div[2]/div/div[3]/span</td>
+	<td>Автор</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=#author_chzn &gt; a.chzn-single &gt; div &gt; b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=#author_chzn &gt; div.chzn-drop &gt; div.chzn-search &gt; input[type=&quot;text&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#author_chzn &gt; div.chzn-drop &gt; div.chzn-search &gt; input[type=&quot;text&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>//form[@id='search-form-full']/div/div[2]/div[2]/div/div[4]/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//form[@id='search-form-full']/div/div[2]/div[2]/div/div[4]/span</td>
+	<td>Раздел</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=#section_chzn &gt; a.chzn-single &gt; div &gt; b</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=#section_chzn &gt; div.chzn-drop &gt; div.chzn-search &gt; input[type=&quot;text&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=#section_chzn &gt; div.chzn-drop &gt; div.chzn-search &gt; input[type=&quot;text&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.column.intitleid &gt; label</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.column.intitleid &gt; label</td>
+	<td>искать только в названии</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=intitle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>id=intitle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=intitle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=intitle</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>css=div.column2.date &gt; span.assets-text</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>css=div.column2.date &gt; span.assets-text</td>
+	<td>Временной интервал</td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=sdate</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=edate</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
